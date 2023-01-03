@@ -12,3 +12,10 @@
 .photo {width: 200px; height: 200px; border-radius: 100%;}
 
 .newBox {padding: 0.3rem; width: 45px;height: 20px; line-height: 20px; background-color: aqua; border-radius: 5px; font-size: 13px; font-weight: bold; position: absolute;top: 10%;right: 1%;text-align: center;}
+
+.container {display: flex; justify-content: center;}
+
+.counter {display: flex; flex-direction: column; align-items: center; margin: 2rem;padding: 1rem; border-radius: 1rem; border:2px solid rgb(215,127,12);}
+.counter:hover {background-color: aliceblue;}
+.number {font-size: 7rem;}
+.button{font-size: 2rem; padding: 0.2rem 1rem; border-radius: 0.5rem; cursor: pointer; background: rgb(132, 43, 43);}
